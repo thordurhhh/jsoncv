@@ -16,7 +16,6 @@ const getRandomColor = () => {
 
 const sampleData = {
   "color": getRandomColor(),
-  "filename": "johnnylogan",
   "contact": {
     "firstName": "Thordur",
     "lastName": "Haflidason",
