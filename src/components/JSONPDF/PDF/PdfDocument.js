@@ -16,12 +16,12 @@ import {
 
 // FONTS HERE: https://github.com/alexvcasillas/Google-Fonts-JSON-to-Google-Font-Format/blob/master/google-fonts.json
 Font.register(
-  "http://fonts.gstatic.com/s/lato/v11/v0SdcGFAl2aezM9Vq_aFTQ.ttf",
+  "https://fonts.gstatic.com/s/lato/v11/v0SdcGFAl2aezM9Vq_aFTQ.ttf",
   { family: "Lato" }
 );
 
 Font.register(
-  "http://fonts.gstatic.com/s/lato/v11/DvlFBScY1r-FMtZSYIYoYw.ttf",
+  "https://fonts.gstatic.com/s/lato/v11/DvlFBScY1r-FMtZSYIYoYw.ttf",
   { family: "LatoBold" }
 );
 
