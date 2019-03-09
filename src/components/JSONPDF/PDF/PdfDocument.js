@@ -63,7 +63,7 @@ const styles = StyleSheet.create({
   },
   textItemTitle: {
     fontFamily: "LatoBold",
-    fontSize: 19
+    fontSize: 17
   },
   detailText: {
     fontSize: 11,
@@ -85,7 +85,7 @@ const styles = StyleSheet.create({
   },
   section: {
     width: "100%",
-    marginBottom: 20
+    marginBottom: 25
   },
   sectionTitle: {
     fontSize: 20,
@@ -98,7 +98,7 @@ const styles = StyleSheet.create({
     marginBottom: 15
   },
   tableLeft: {
-    width: '27%',
+    width: '26%',
     marginRight: 30
     // textAlign: 'right',
   },
@@ -108,7 +108,7 @@ const styles = StyleSheet.create({
   line: {
     width: "100%",
     height: 1,
-    backgroundColor: "#663399",
+    backgroundColor: "#403b3b",
     marginBottom: 5,
     marginTop: 5
   },

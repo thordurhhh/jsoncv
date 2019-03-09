@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
   },
   textItemTitle: {
     fontFamily: "LatoBold",
-    fontSize: 19
+    fontSize: 17
   },
   detailText: {
     fontSize: 11,
@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
     marginBottom: 15
   },
   tableLeft: {
-    width: '30%',
+    width: '28%',
     marginRight: 10
   },
   tableRight: {
