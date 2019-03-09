@@ -95,7 +95,8 @@ const styles = StyleSheet.create({
   },
   table: {
     flexDirection: "row",
-    marginBottom: 15
+    marginBottom: 15,
+    marginTop: 2
   },
   tableLeft: {
     width: '26%',
@@ -105,12 +106,24 @@ const styles = StyleSheet.create({
   tableRight: {
     flexGrow: 1
   },
+  threeContainer: {
+    justifyContent: "space-between",
+  },
   line: {
     width: "100%",
     height: 1,
     backgroundColor: "#403b3b",
     marginBottom: 5,
     marginTop: 5
+  },
+  first: {
+    textAlign: 'left'
+  },
+  second: {
+    textAlign: 'center'
+  },
+  third: {
+    textAlign: 'right'
   },
   mb3: {
     marginBottom: 3
@@ -181,7 +194,7 @@ const PartTypeThreeWay = ({ section }) => (
     <View style={styles.line} />
     {
       section.items.map((item, i) => (
-        <View key={`threeway-${i}`} style={styles.table}>
+        <View key={`threeway-${i}`} style={{...styles.table, ...styles.threeContainer}}>
           <View style={styles.aThird}>
             <Text style={styles.first}>{item.text1}</Text>
           </View>
@@ -189,7 +202,7 @@ const PartTypeThreeWay = ({ section }) => (
             <Text style={styles.second}>{item.text2}</Text>
           </View>
           <View style={styles.aThird}>
-            <Text style={styles.textItemDetail}>{item.text3}</Text>
+            <Text style={styles.third}>{item.text3}</Text>
           </View>
         </View>
       )
