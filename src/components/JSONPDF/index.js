@@ -21,11 +21,10 @@ const sampleData = {
     "lastName": "Haflidason",
     "image": "https://placekitten.com/150/200",
     "info": [
-      "Laugavegur 1",
-      "101 Reykjavík",
       "https://www.thordurh.com",
       "github: @thordurhhh",
-      "twitter: @tolleinn"
+      "twitter: @tolleinn",
+      "Reykjavík"
     ]
   },
   "sections": [
@@ -58,7 +57,7 @@ const sampleData = {
           "to": "2010",
           "title": "Lorem",
           "sub": "Ipsum",
-          "text": "Massa torquent laoreet suscipit malesuada venenatis netus habitasse mus amet, aptent fermentum aliquet suscipit sociis."
+          "text": "Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem."
         }
       ]
     },
@@ -67,10 +66,10 @@ const sampleData = {
       "sectionTitle": "Language Skills",
       "items": [
         {
-          "text": "Lorem ipsum is my native language so I speak it fluently. My Icelandic is ok, and I can manage with Danish."
+          "text": "Sed lectus. Integer euismod lacus luctus magna. Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus."
         },
         {
-          "text": "This text goes on the next line"
+          "text": "This text goes on the next line."
         }
       ]
     },
@@ -133,7 +132,7 @@ class JSONPdf extends React.Component {
       <div className="jsonpdf-wrapper">
         <div style={{ maxWidth: "100%", maxHeight: "100%" }}>
           <JSONInput
-            placeholder={sampleData} // data to display
+            placeholder={sampleData}
             onChange={d => this.getJosonFromEditor(d.jsObject)}
             theme="light_mitsuketa_tribute"
             locale={locale}

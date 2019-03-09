@@ -1,8 +1,6 @@
 import React from "react";
-// import kitten from "../../images/kitten.jpeg";
 import SectionTable from "./sectionTable";
 import get from "lodash.get";
-// import filter from "lodash.filter";
 
 import {
   Document,
