@@ -1,0 +1,90 @@
+{
+  "color": "#ebebeb",
+  "contact": {
+    "firstName": "Thordur",
+    "lastName": "Haflidason",
+    "image": "https://placekitten.com/150/200",
+    "info": [
+      "https://www.thordurh.com",
+      "github: @thordurhhh",
+      "twitter: @tolleinn",
+      "Reykjavík"
+    ]
+  },
+  "sections": [
+    {
+      "type": "full",
+      "sectionTitle": "Work",
+      "items": [
+        {
+          "from": "2014",
+          "to": "Current",
+          "title": "Web Developer",
+          "sub": "Front-end",
+          "text": "I am a front end developer."
+        }
+      ]
+    },
+    {
+      "type": "full",
+      "sectionTitle": "Education",
+      "items": [
+        {
+          "from": "2010",
+          "to": "2019",
+          "title": "Lorem",
+          "sub": "Ipsum",
+          "text": "Massa torquent laoreet suscipit malesuada venenatis netus habitasse mus amet, aptent fermentum aliquet suscipit sociis."
+        },
+        {
+          "from": "2001",
+          "to": "2010",
+          "title": "Lorem",
+          "sub": "Ipsum",
+          "text": "Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "sectionTitle": "Language Skills",
+      "items": [
+        {
+          "text": "Sed lectus. Integer euismod lacus luctus magna. Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus."
+        },
+        {
+          "text": "This text goes on the next line."
+        }
+      ]
+    },
+    {
+      "type": "two",
+      "sectionTitle": "Skills",
+      "items": [
+        {
+          "title": "React",
+          "text": "This is made with React."
+        },
+        {
+          "title": "CSS",
+          "text": "This has CSS in JS. Don't @ me."
+        },
+        {
+          "title": "Javascript",
+          "text": "Great."
+        }
+      ]
+    },
+    {
+      "type": "three",
+      "sectionTitle": "Recommendations",
+      "items": [
+        {
+          "text1": "John Smith",
+          "text2": "Owner of things",
+          "text3": "555 5555"
+        }
+      ]
+    }
+  ]
+}

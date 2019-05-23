@@ -1,7 +1,8 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import InfoSVG from '../atoms/InfoIcon'
+import InfoSVG from '../atoms/Icons/InfoIcon'
+import SmileySVG from '../atoms/Icons/Smiley'
 
 const Header = ({ siteTitle }) => (
   <header
@@ -28,9 +29,25 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
-      <a target="_blank" rel="noopener noreferrer" href="https://www.thordurh.com">
-        <InfoSVG />
-      </a>
+      <div>
+        <Link
+          style={{
+            marginRight: 15
+          }}
+          to="/about/"
+          title="About this website"
+          >
+          <InfoSVG />
+        </Link>
+        <a
+          target="_blank"
+          title="External link to my personal website"
+          rel="noopener noreferrer"
+          href="https://www.thordurh.com"
+          >
+          <SmileySVG />
+        </a>
+      </div>
     </div>
   </header>
 )
