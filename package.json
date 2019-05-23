@@ -2,7 +2,7 @@
   "name": "json-to-cv",
   "private": true,
   "description": "json to cv",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "Thordur Haflidason",
   "dependencies": {
     "@loadable/component": "^5.6.1",

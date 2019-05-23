@@ -8,4 +8,4 @@ A simple React website where you can input your json and the result is a downloa
 
 ## 🧐 Why Gatsby?
 
-Because It's a wonderful way to set up a SSR React page, and even though the whole front page is client side, I really wanted to have an /about/ page.
+Because It's a wonderful way to set up a SSR/Static React page, and even though the whole front page is client side, I really wanted to have an /about/ page.

@@ -256,7 +256,7 @@ const MyDocument = ({ info }) => {
           <View style={styles.sectionHalf}>
           {
             infoArray.map((item, i) => (
-              <Text style={{ ...styles.textItem, ...styles.mb3 }}>
+              <Text key={`infoarraytext-${i}`} style={{ ...styles.textItem, ...styles.mb3 }}>
                 {item}
               </Text>
             )
