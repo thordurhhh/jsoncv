@@ -4,7 +4,7 @@
 
 A simple React website where you can input your json and the result is a downloadable pdf.
 
-[JSON to CV web](https://5c82f1f9d488c30008ecf8d3--optimistic-yalow-9a1a21.netlify.com/).
+[JSON to CV web](https://jsontocv.com/).
 
 ## 🧐 Why Gatsby?
 
