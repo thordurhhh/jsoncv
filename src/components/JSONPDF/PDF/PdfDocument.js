@@ -14,12 +14,12 @@ import {
 
 // FONTS HERE: https://github.com/alexvcasillas/Google-Fonts-JSON-to-Google-Font-Format/blob/master/google-fonts.json
 Font.register(
-  "https://fonts.gstatic.com/s/lato/v11/v0SdcGFAl2aezM9Vq_aFTQ.ttf",
+  "//fonts.gstatic.com/s/lato/v11/v0SdcGFAl2aezM9Vq_aFTQ.ttf",
   { family: "Lato" }
 );
 
 Font.register(
-  "https://fonts.gstatic.com/s/lato/v11/DvlFBScY1r-FMtZSYIYoYw.ttf",
+  "//fonts.gstatic.com/s/lato/v11/DvlFBScY1r-FMtZSYIYoYw.ttf",
   { family: "LatoBold" }
 );
 
@@ -226,7 +226,6 @@ const TypesOfSectionsSorter = ({ section }) => {
   }
 }
 
-// https://www.bifrost.is/files/skra_0039880.pdf
 const MyDocument = ({ info }) => {
   const dynamicColor = get(info, "color")
   const validColor = /(^#[0-9A-F]{6}$)|(^#[0-9A-F]{3}$)/i.test(dynamicColor) ? dynamicColor : '#ebebeb'
