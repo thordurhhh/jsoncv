@@ -4,7 +4,7 @@
 
 A simple React web application where you can input your json and the result is a downloadable or printable pdf.
 
-[JSON to CV web](https://jsontocv.com/).
+[JSON to CV web](https://jsontocv.netlify.com/).
 
 ## 📝 JSON to PDF
 
