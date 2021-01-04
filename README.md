@@ -14,4 +14,4 @@ The heavy lifting is done by **[react-pdf](https://github.com/diegomura/react-pd
 
 ## 🧐 Why Gatsby?
 
-Because It's a wonderful way to set up a SSR/Static React page, and even though the whole front page is client side, I really wanted to have an /about/ page.
+Because It's a wonderful way to set up a Static React page, and even though the whole front page is client side, I really wanted to have an /about/ page.
